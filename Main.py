@@ -20,12 +20,16 @@ def main():
     
         op = input("Entra una opció: ")
         if op=='d':
-	    pass
+            nau.moure_dreta()
+	        pass
         elif op=='a':
+            nau.moure_esquerre()
             pass
         elif op=='w':
+            nau.moure_amunt()
             pass
         elif op=='s':
+            nau.moure_avall()
             pass
         elif op=='0':
             sortir=True
